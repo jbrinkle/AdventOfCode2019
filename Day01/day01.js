@@ -1,6 +1,6 @@
 console.log('-----DAY 1-----')
 
-const inputReader = require('../utils/readInput').readInput
+const inputReader = require('../utils/readInput').readFileInput
 const modMassList = inputReader('input', '\n', true)
 
 // part 1 - fuel required for mass

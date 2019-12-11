@@ -1,4 +1,4 @@
-const inputReader = require('../utils/readInput').readInput
+const inputReader = require('../utils/readInput').readFileInput
 const lines = inputReader('input', '\n', false)
 
 console.log('-----DAY 3-----')

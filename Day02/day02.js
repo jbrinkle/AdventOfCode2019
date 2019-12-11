@@ -1,4 +1,4 @@
-const inputReader = require('../utils/readInput').readInput
+const inputReader = require('../utils/readInput').readFileInput
 const intcodeProgBase = inputReader('input', ',', true)
 
 
