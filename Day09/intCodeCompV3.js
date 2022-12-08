@@ -176,7 +176,7 @@ exports.createIntCodeComputerV3 = function(codeRef) {
             instrPtrUpdater = adjRelBase(code.slice(instrPtr, instrPtr + 2), randomAccess);
             break;
           default:
-            throw `Catastrophic failure: received command ${opCode}`
+            throw `Catastrophic failure: received command ${opCode} at index ${instrPtr}`
         }
 
         instrPtr = instrPtrUpdater(instrPtr);
